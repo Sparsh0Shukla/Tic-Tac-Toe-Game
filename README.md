@@ -18,7 +18,7 @@ Gained experience in creating responsive web designs.
 Enhanced ability to write clean, maintainable code.
 How to Use
 Clone the repository:
-git clone https://github.com/yourusername/tic-tac-toe.git
+git clone https://github.com/sparsh0shukla/tic-tac-toe.git
 
 Navigate to the project directory:
 cd tic-tac-toe
