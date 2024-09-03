@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2%;
+  margin: 2%;
+}
+
+body {
+  background-color: #41ead4;
+  text-align: center;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem black;
+  font-size: 8vmin;
+  color: #fdfffc;
+  background-color: #011627;
+}
+
+#resetbtn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #3c787e;
+  color: white;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem black;
+}
+
+#newbtn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #3c787e;
+  color: white;
+  border-radius: 1rem;
+  border: none;
+  margin: 1rem;
+}
+
+#msg {
+  color: #ff0022;
+  font-size: 5vmin;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.msg-container {
+  height: 80vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide {
+  display: none;
+}
